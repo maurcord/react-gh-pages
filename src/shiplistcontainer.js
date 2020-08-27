@@ -1,18 +1,24 @@
 import React from 'react'
 import Ship1 from './ship1.js';
-import Ship2 from './ship2.js';
-import Ship3 from './ship3.js';
-import Ship4 from './ship4.js'
 import InfoContainer from './infocontainer.js';
 
-function ShipListContainer() {
+function ShipListContainer(props) { 
+   let shipList = props.listOfShips
+   console.log(shipList)
+
     return(
     <> 
     <div className='shipContainer'>
-        <Ship1 />
-        <Ship2 />
-        <Ship3 />
-        <Ship4 /> 
+        {shipList.map ((ship) => {   
+        let nameOfShip = ship.name
+        return(
+
+        <Ship1 shipInfo={ship}/>
+            
+        )
+        } )}
+    
+        
      </div>
      
      <div>

@@ -1,23 +1,19 @@
 import React, {useState} from 'react'
 
 
-const Ship1 = ({name}) => {
-const [model, setModel] = useState('')
-    fetch(`https://swapi.dev/api/starships/${name}`)
-    .then(res=> res.json)
-    .then(starwarsResponse => {
-        console.log(starwarsResponse);
-        const {model} = starwarsResponse[0];
-        console.log(model);
-        setModel(model)
-    })
+const Ship1 = (props) => {
+// console.log(props.name)
+   
+const showShipInformation =()=> {
+ console.log(props.shipInfo)
+}
 
 return(
-    <div>
-        
+    <div onClick={showShipInformation}>
+    
         <p>
-            Name: {name}
-            Model: {model}      
+         Ship:{props.shipInfo.name} 
+        
         </p>
     </div>
  )
