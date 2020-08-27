@@ -1,13 +1,33 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+}
+h1 {
+  color: black;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h5{
+  color: black;
+}
+
+.header-container { 
+  text-align: center;
+  display: flex;
+  color: white;
+  background-color: grey;
+} 
+.starshipList li {
+  display: inline;
+  padding: 10px;
+}
+.starshipList ul{
+ width: 100%;
+ background-color: grey;
+ text-align: center;
+}
+.content {
+  padding: 50px;
+  text-align: center;
+}
+ul {
+  padding: 20px;
 }

@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+.swHeading {
+  display: flex;
+  background-color: black;
+  color: white;
+
+}
+.shipContainer{
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background: black;
+  color: white;
+}
