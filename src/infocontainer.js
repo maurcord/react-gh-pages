@@ -1,11 +1,15 @@
-import React from 'react'
+// import React from 'react'
 
-function InfoContainer() {
-    return(
-    <div>
-        <h1>ShipInfo</h1>
-    </div>
-    )
-}
+// const InfoContainer= (props)=> {
+//     //console.log(props.name)
+//     const shipInfoContainer = () => {
+//     }
+//     console.log(props.shipInfo)
+//     return(
+//     <div>
+//         <h1>shipInfo</h1>
+//     </div>
+// )
+// }
 
-export default InfoContainer;
+// export default InfoContainer;

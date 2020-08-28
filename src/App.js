@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Ship1 from './ship1.js';
 import ShipListContainer from './shiplistcontainer';
 class App extends Component {
   constructor(props) {

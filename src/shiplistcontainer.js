@@ -1,6 +1,6 @@
 import React from 'react'
 import Ship1 from './ship1.js';
-import InfoContainer from './infocontainer.js';
+// import InfoContainer from './infocontainer.js';
 
 function ShipListContainer(props) { 
    let shipList = props.listOfShips
@@ -21,9 +21,9 @@ function ShipListContainer(props) {
         
      </div>
      
-     <div>
+     {/* <div>
          <InfoContainer />
-     </div>
+     </div> */}
      </>
     )
 }
