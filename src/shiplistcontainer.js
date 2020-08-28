@@ -10,7 +10,6 @@ function ShipListContainer(props) {
     <> 
     <div className='shipContainer'>
         {shipList.map ((ship) => {   
-        let nameOfShip = ship.name
         return(
 
         <Ship1 shipInfo={ship}/>

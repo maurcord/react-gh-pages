@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import ShipListContainer from './shiplistcontainer';
+import InfoContainer from './infocontainer';
 class App extends Component {
   constructor(props) {
     super(props)
@@ -23,7 +24,7 @@ class App extends Component {
       <p className="swHeading">Star Wars Ship Information</p>
       
       <ShipListContainer listOfShips= {this.state.starWarsShips} />
-
+      <InfoContainer />
      
     </div>
   );
